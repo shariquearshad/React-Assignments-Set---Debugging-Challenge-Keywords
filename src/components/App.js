@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="ball">
       <h1
-        class="count"
+        className="count"
         onDoubleClick={() => {
           alert("cant edit it");
         }}
@@ -15,7 +15,7 @@ const App = () => {
         {count}
       </h1>
       <button
-        class="increment-button"
+        className="increment-button"
         onClick={() => {
           setCount(count + 1);
         }}
